@@ -2,7 +2,7 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_C_INCLUDES:= \
-	$(call include-path-for, dbus) \
+	external/dbus \
 	$(call include-path-for, dbus)/dbus \
 	external/expat/lib/
 

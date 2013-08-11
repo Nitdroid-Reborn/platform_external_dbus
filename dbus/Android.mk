@@ -58,7 +58,7 @@ dbus-watch.c \
 sd-daemon.c \
 
 LOCAL_C_INCLUDES+= \
-	$(call include-path-for, dbus)
+	external/dbus
 
 LOCAL_MODULE:=libdbus
 
